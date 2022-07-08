@@ -1,6 +1,6 @@
 {
   "name": "coronado",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "triple API Typescript/JavaScript wrapper",
   "main": "index.js",
   "scripts": {
