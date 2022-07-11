@@ -4,7 +4,9 @@
   "description": "triple API Typescript/JavaScript wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/coronado-fi/coronado-js/issues"
   },
-  "homepage": "https://github.com/coronado-fi/coronado-js#readme"
+  "homepage": "https://github.com/coronado-fi/coronado-js#readme",
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5"
+  }
 }
