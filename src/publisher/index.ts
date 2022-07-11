@@ -18,9 +18,36 @@ class Publisher extends Triple {
 
     /**
      * Create a new Publisher instance using the spec
+     *
+     * TODO create a PublisherType for spec to resolve to
      */
-    create() {
+    create(spec : any) {
     }
+
+    /**
+     * Return a list of publishers.
+     *
+     * TODO write code which hits the Publisher endpoint
+     */
+    list() {
+    }
+
+    /**
+     * Return the publisher associated with objID.
+     *
+     * TODO lookup publisher by ID
+     */
+    byID(objID : string) {
+    }
+
+    /**
+     * Update the receiver with a new assumed name or update its address.
+     *
+     * TODO object id with contents of spec
+     */
+    updateWith(objID : string, spec : any) {
+    }
+
 }
 
 export default Publisher
